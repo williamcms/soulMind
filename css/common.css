@@ -57,11 +57,14 @@ h2{
 }
 .pinkCard-top{
 	color: #FFF;
-	padding: 12.5rem 15.625rem;
+	/*padding: 12.5rem 15.625rem;*/
 	background: url('../fotos/Soul_MinD_Rosa_Topo.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 80vh;
+}
+.top-wrapper{
+	transform: translate(8vw, 12vh);
 }
 .pinkCard-top .logo{
 	position: relative;
@@ -262,6 +265,9 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	    background-size: cover;
 	    text-align: center;
 	    height: 100%;
+	}
+	.top-wrapper{
+		transform: translate(0, 0);
 	}
 	.pinkCard-top .logo{
 		margin-bottom: 1rem;
