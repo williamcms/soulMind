@@ -279,10 +279,16 @@ footer .security-wrapper .container .item:nth-child(2) img{
 @media screen and (max-width: 831px) and (orientation : portrait){
 	.blackCard-top {
 	    padding: 3.75rem 1rem 0 1rem;
-	    background: url('../fotos/Soul_MinD_Rosa_Topo_mobile.jpg') no-repeat !important;
+	    background: url('../fotos/Soul_MinD_Preto_Topo_mobile.jpg') no-repeat !important;
 	    background-size: cover;
 	    text-align: center;
 	    height: 100%;
+	    color: #FFF !important;
+	}
+	.blackCard-top .logo,
+	.blackCard-top .logo .borderTopLeft,
+	.blackCard-top .logo .borderTopRight{
+	    border-color: #FFF;
 	}
 	.blackCard-top .logo{
 		margin-bottom: 1rem;
@@ -313,13 +319,13 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	    background: url('../fotos/Soul_MinD_Rosa_aproveite_mobile.jpg') no-repeat;
 	    background-position: center;
 	    width: 100%;
-	    height: 50vh;
+	    height: 314px;
 	    padding: 0;
 	    margin-top: 258px;
 	}
 	.enjoyFeatures .enjoyText{
 		position: absolute;
-		margin-top: -16rem;
+		margin-top: -19rem;
 		text-align: center;
 		width: 100%;
 	}
@@ -358,19 +364,20 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	    background: url(../fotos/Soul_MinD_Rosa_upgrade_mobile.jpg) no-repeat;
 	    background-position: center;
 	    width: 100%;
-	    height: 50vh;
+	    height: 300px;
 	    padding: 0;
-	    margin-top: 375px;
 	}
 	.upgrade .upgradeText{
+		display: none;
+	}
+	.upgradeText-mobile{
 		background-color: rgb(233, 66, 115);
-		position: absolute;
-		margin-top: -26.3rem;
 		padding: 0.9rem;
 		text-align: center;
 		width: 100%;
+		color: #FFF;
 	}
-	.upgrade .upgradeText > p{
+	.upgradeText > p{
 		margin-top: 1rem;
 	}
 	footer .payment-wrapper .container .item{
