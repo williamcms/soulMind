@@ -76,6 +76,7 @@ h3{
 }
 .top-wrapper{
 	transform: translate(8vw, 12vh);
+	display: inline-block;
 }
 .blackCard-top .logo{
 	position: relative;
@@ -167,6 +168,7 @@ h3{
 }
 .enjoyFeatures .enjoyText{
 	transform: translate(7vw, 12vh);
+	display: inline-block;
 }
 .enjoyFeatures p{
 	font-family: 'Didot';
@@ -207,7 +209,11 @@ h3{
 	width: 100%;
 	height: 60vh;
 	color: #FFF;
-	padding: 5rem 10rem;
+	/*padding: 5rem 10rem;*/
+}
+.upgrade .upgradeText{
+	transform: translate(7vw, 12vh);
+	display: inline-block;
 }
 .upgrade .description{
 	margin-top: 3rem;

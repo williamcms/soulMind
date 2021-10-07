@@ -68,6 +68,7 @@ h2{
 }
 .top-wrapper{
 	transform: translate(8vw, 12vh);
+	display: inline-block;
 }
 .pinkCard-top .logo{
 	position: relative;
@@ -159,6 +160,7 @@ h2{
 }
 .enjoyFeatures .enjoyText{
 	transform: translate(8vw, 12vh);
+	display: inline-block;
 }
 .enjoyFeatures p{
 	font-family: 'Didot';
