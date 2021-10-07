@@ -23,6 +23,9 @@
 	line-height: 1.50rem;
 	font-family: 'Helvetica';
 }
+body{
+    overflow-x: hidden;
+}
 h1,
 h2,
 h3,
@@ -282,7 +285,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	    font-size: 2rem;
 	}
 	.pinkCard-top .description {
-	    font-size: 0.73em;
+	    font-size: 0.70em;
 	    margin-top: 15rem;
 	    padding-bottom: 1rem;
 	    display: block;
@@ -304,7 +307,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	}
 	.enjoyFeatures .enjoyText{
 		position: absolute;
-		margin-top: -16rem;
+		margin-top: -18.5rem;
 		text-align: center;
 		width: 100%;
 	}
@@ -315,6 +318,9 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	.enjoyFeatures button {
 	    margin-top: 3.75rem;
 	    font-size: 1rem;
+	}
+	.enjoyFeatures .enjoyText{
+		transform: translate(0, 0);
 	}
 	.support-wrapper .support-guide h2,
 	.support-wrapper .support-guide div,
