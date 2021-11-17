@@ -184,6 +184,8 @@ h2{
 	display: inline-block;
 }
 .register a{
+	padding: 1.2em 2.5em;
+	margin: 0 1rem;
 	border: solid .070em #FFFFFF;
 	margin-top: 2rem;
 	color: #FFFFFF;
