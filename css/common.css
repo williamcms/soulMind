@@ -1,5 +1,5 @@
 :root{
-	--primary: rgb(233, 66, 115);
+	--primary: #E94273;
 }
 @font-face{
 	font-family: Helvetica;
@@ -124,15 +124,31 @@ h2{
 	display: block;
 	margin: 0 auto;
 }
+.register{
+	padding: 2rem 0 3.5rem 0;
+	background-color: var(--primary);
+}
+.register p{
+	font-family: 'Didot';
+	color: #FFFFFF;
+	font-size: 2.5rem;
+	padding: 6px;
+	margin:  0 auto;
+	line-height: 3.5rem;
+	font-weight: 600;
+	max-width: 80vw;
+}
 .enjoyFeatures{
 	background: url('../fotos/Soul_MinD_Rosa_aproveite.jpg') no-repeat;
 	background-position: center;
 	width: 100%;
 	height: 60vh;
-	/*padding: 13.75rem 13.25rem;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 8rem;
 }
 .enjoyFeatures .enjoyText{
-	transform: translate(8vw, 12vh);
 	display: inline-block;
 }
 .enjoyFeatures p{
@@ -140,12 +156,12 @@ h2{
 	color: var(--primary);
 	font-size: 2.75rem;
 	padding: 6px;
-	margin-top: .80rem;
 	line-height: 3.5rem;
 	font-weight: 600;
 	max-width: 35rem;
 }
-.enjoyFeatures a{
+.enjoyFeatures a,
+.register a{
 	font-size: 1.3em;
 	margin-top: 2.75rem;
 	padding: 1.2em 3.5em;
@@ -156,18 +172,26 @@ h2{
 	text-decoration: none;
 	display: inline-block;
 }
-.enjoyFeatures a span::after{
+.register a{
+	border: solid .070em #FFFFFF;
+	margin-top: 2rem;
+	color: #FFFFFF;
+}
+.enjoyFeatures a span::after,
+.register a span::after{
 	content: '\00bb';
 	position: absolute;
 	font-size: 1.15	em;
 	right: -20px;
 	display: none;
 }
-.enjoyFeatures a:hover{
+.enjoyFeatures a:hover,
+.register a:hover{
 	background: var(--primary);
 	color: #FFF;
 }
-.enjoyFeatures a:hover span::after{
+.enjoyFeatures a:hover span::after,
+.register a:hover span::after{
 	position: relative;
 	display: inline;
 }
@@ -214,8 +238,7 @@ footer .aboutUs-wrapper a{
 }
 footer .support-wrapper a:hover,
 footer .aboutUs-wrapper a:hover{
-	color: var(--primary);
-	font-weight: 600;
+	color: #E94273;
 }
 footer .payment-wrapper .container,
 footer .security-wrapper .container{
@@ -292,18 +315,23 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	.perks .container div.item{
 		flex-basis: 100%;
 	}
+	.register p{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 	.enjoyFeatures {
 		position: relative;
 	    background: url('../fotos/Soul_MinD_Rosa_aproveite_mobile.jpg') no-repeat;
 	    background-position: center;
 	    width: 100%;
-	    height: 314px;
+	    height: 335px;
 	    padding: 0;
 	    margin-top: 258px;
+	    justify-content: flex-start;
 	}
 	.enjoyFeatures .enjoyText{
 		position: absolute;
-		margin-top: -18.5rem;
+		margin-top: -15.5rem;
 		text-align: center;
 		width: 100%;
 	}
@@ -315,10 +343,6 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	.enjoyFeatures button {
 	    margin-top: 2.75rem;
 	    font-size: 1rem;
-	}
-	.enjoyFeatures .enjoyText{
-		transform: translate(0, 0);
-		margin-top: -17.5rem;
 	}
 	.support-wrapper .support-guide h2,
 	.support-wrapper .support-guide div,
