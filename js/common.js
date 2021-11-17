@@ -13,4 +13,17 @@ $(document).ready(function(){
 			$('.aboutUs-guide .changeView')[0].src = 'svgs/soulmind_layout_botao_menos.svg';
 		}
 	});
+	$('.perks .item img')
+		.mouseover(function(){
+			var alt = $(this).attr('altsrc');
+
+			$(this).attr('altsrc', this.src);
+			this.src = alt;
+		})
+		.mouseout(function(){
+			var alt = $(this).attr('altsrc');
+
+			$(this).attr('altsrc', this.src);
+			this.src = alt;
+		});
 });
