@@ -5,19 +5,13 @@
 	font-family: Helvetica;
 	font-weight: normal;
 	font-display: swap;
-	src:  url('../fonts/Helvetica.ttc') format('truetype');
-}
-@font-face{
-	font-family: HelveLTMM;
-	font-weight: normal;
-	font-display: swap;
-	src:  url('../fonts/HelveLTMM');
+	src:  url('https://lojamindesigns.vteximg.com.br/arquivos/Helvetica.ttf.css') format('truetype');
 }
 @font-face{
 	font-family: Didot;
 	font-weight: normal;
 	font-display: swap;
-	src:  url('../fonts/Didot.ttc') format('truetype');
+	src:  url('https://lojamindesigns.vteximg.com.br/arquivos/Didot-HTF-M64-Medium.ttf.css') format('truetype');
 }
 *{
 	padding: 0;
@@ -71,7 +65,7 @@ h2{
 }
 .pinkCard{
 	color: #FFF;
-	background: url('../fotos/Soul_MinD_Rosa_Topo.jpg') no-repeat;
+	background: url('https://lojamindesigns.vteximg.com.br/arquivos/Soul_MinD_Rosa_Topo.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -152,7 +146,7 @@ h2{
 	max-width: 80vw;
 }
 .enjoyFeatures{
-	background: url('../fotos/Soul_MinD_Rosa_aproveite.jpg') no-repeat;
+	background: url('https://lojamindesigns.vteximg.com.br/arquivos/Soul_MinD_Rosa_aproveite.jpg') no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -302,7 +296,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 }
 @media screen and (max-width: 831px) and (orientation : portrait){
 	.pinkCard {
-	    background: url('../fotos/Soul_MinD_Rosa_Topo_mobile.jpg') no-repeat !important;
+	    background: url('https://lojamindesigns.vteximg.com.br/arquivos/Soul_MinD_Rosa_Topo_mobile.jpg') no-repeat !important;
 	    background-size: cover;
 	    text-align: center;
 	    height: 100%;
@@ -340,7 +334,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	}
 	.enjoyFeatures {
 		position: relative;
-	    background: url('../fotos/Soul_MinD_Rosa_aproveite_mobile.jpg') no-repeat;
+	    background: url('https://lojamindesigns.vteximg.com.br/arquivos/Soul_MinD_Rosa_aproveite_mobile.jpg') no-repeat;
 	    background-position: center;
 	    width: 100%;
 	    height: 335px;
