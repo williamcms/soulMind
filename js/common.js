@@ -1,16 +1,16 @@
 $(document).ready(function(){
 	$('#support-extended').change(function(){
 		if(!$('#support-extended')[0].checked){
-			$('.support-guide .changeView')[0].src = 'svgs/soulmind_layout_botao_mais.svg';
+			$($('.support-wrapper .support-guide svg line.cls-2')[0]).css('display', 'block');
 		}else{
-			$('.support-guide .changeView')[0].src = 'svgs/soulmind_layout_botao_menos.svg';
+			$($('.support-wrapper .support-guide svg line.cls-2')[0]).css('display', 'none');
 		}
 	});
 	$('#aboutUs-extended').change(function(){
 		if(!$('#aboutUs-extended')[0].checked){
-			$('.aboutUs-guide .changeView')[0].src = 'svgs/soulmind_layout_botao_mais.svg';
+			$($('.aboutUs-wrapper .aboutUs-guide svg line.cls-2')[0]).css('display', 'block');
 		}else{
-			$('.aboutUs-guide .changeView')[0].src = 'svgs/soulmind_layout_botao_menos.svg';
+			$($('.aboutUs-wrapper .aboutUs-guide svg line.cls-2')[0]).css('display', 'none');
 		}
 	});
 	$('.perks .item img')

@@ -66,12 +66,14 @@ h2{
 	flex-grow: 1;
 	max-width: 100%;
 }
+.card-top{
+	height: 70vh;
+}
 .pinkCard{
 	color: #FFF;
 	background: url('../fotos/Soul_MinD_Rosa_Topo.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 70vh;
 }
 .top-wrapper{
 	display: flex;
@@ -81,7 +83,7 @@ h2{
 	margin-left: 9.375rem;
 	height: 100%;
 }
-.card-top .logo img{
+.card-top .logo svg{
 	width: 9.688em;
 	height: 5.938em;
 }
@@ -152,6 +154,7 @@ h2{
 .enjoyFeatures{
 	background: url('../fotos/Soul_MinD_Rosa_aproveite.jpg') no-repeat;
 	background-position: center;
+	background-size: cover;
 	width: 100%;
 	height: 60vh;
 	display: flex;
@@ -240,8 +243,11 @@ footer .social-wrapper h2{
 footer .social{
 	display: inline-block;
 }
-footer .social img{
+footer .social svg{
 	width: 35px;
+}
+footer .social a{
+	text-decoration: none;
 }
 footer .support-wrapper a,
 footer .aboutUs-wrapper a{
@@ -267,7 +273,7 @@ footer .security-wrapper .container .item{
 	flex-basis: 20%;
 	margin: 0 .75rem;
 }
-footer .payment-wrapper .container .item img{
+footer .payment-wrapper .container .item svg{
 	height: 60px;
 	max-width: 100px;
 }
@@ -344,7 +350,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	}
 	.enjoyFeatures .enjoyText{
 		position: absolute;
-		margin-top: -15.5rem;
+		margin-top: -16rem;
 		text-align: center;
 		width: 100%;
 	}
@@ -363,9 +369,12 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	.aboutUs-wrapper .aboutUs-guide div{
 		display: inline-block;
 	}
-	.support-wrapper .support-guide img,
-	.aboutUs-wrapper .aboutUs-guide img{
+	.support-wrapper .support-guide svg,
+	.aboutUs-wrapper .aboutUs-guide svg{
 		float: right;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
 	}
 	.support-wrapper .support-guide .support-view,
 	.aboutUs-wrapper .aboutUs-guide .aboutUs-view{
@@ -393,7 +402,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 		flex-basis: 30%;
 	    margin: 0 0.3rem;
 	}
-	footer .payment-wrapper .container .item img {
+	footer .payment-wrapper .container .item img{
 	    max-width: 80px;
 	    height: 50px;
 	}
@@ -401,7 +410,7 @@ footer .security-wrapper .container .item:nth-child(2) img{
 	    margin-bottom: 5rem;
 	}
 	footer .payment-wrapper .container{
-    	justify-content: center;
+    	justify-content: space-evenly;
 	}
 	footer .payment-wrapper{
 	    margin-top: 2.3rem;
